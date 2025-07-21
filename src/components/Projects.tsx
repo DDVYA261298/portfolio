@@ -14,55 +14,55 @@ const Projects: React.FC = () => {
         'Improved scalability and cloud cost control by deploying services on GCP (GCS, BigQuery) with Terraform IaC'
       ],
       technologies: ['Python', 'Airflow', 'AWS RDS', 'GCS', 'Docker', 'FastAPI', 'JWT', 'Terraform'],
-      liveUrl: '#',
-      githubUrl: '#',
+      // liveUrl: '#',
+      githubUrl: 'https://github.com/divya2698/OpenAI-Model-Evaluation-Tool-with-PDF-Extraction',
       featured: true
     },
-    {
-      title: 'AI-Powered Interview Bot',
-      period: 'Jan 2024 - Aug 2024',
-      description: 'Intelligent interview assistant using OpenAI LLM with RAG-based validation and real-time analytics dashboard.',
-      achievements: [
-        'Boosted user engagement by 60% with enhanced interview analysis and insights',
-        'Integrated RAG-based factuality validation pipeline reducing hallucination by 80%',
-        'Constructed interactive progress tracking for 1,000+ users',
-        'Developed analytics dashboard with AWS Lambda integration'
-      ],
-      technologies: ['OpenAI', 'Node.js', 'MongoDB', 'Pinecone', 'Next.js', 'AWS Lambda', 'TypeScript'],
-      liveUrl: '#',
-      githubUrl: '#',
-      featured: true
-    },
-    {
-      title: 'WCAG-Compliant E-commerce Platform',
-      period: 'Feb 2022 - Aug 2022',
-      description: 'Accessible e-commerce website with comprehensive React components and scalable backend infrastructure.',
-      achievements: [
-        'Built 30+ WCAG-compliant React components with Redux state management',
-        'Architected REST APIs supporting 5,000 concurrent sessions with 99.9% uptime',
-        'Integrated comprehensive monitoring reducing reported bugs by 22%',
-        'Implemented auto-scaling infrastructure on AWS'
-      ],
-      technologies: ['React', 'Redux', 'Spring Boot', 'MongoDB', 'AWS', 'CloudWatch', 'Kibana'],
-      liveUrl: '#',
-      githubUrl: '#',
-      featured: false
-    },
-    {
-      title: 'Custom ERP System',
-      period: 'Jul 2019 - Feb 2022',
-      description: 'End-to-end pharmaceutical inventory and order management system with clean architecture principles.',
-      achievements: [
-        'Streamlined operations for 20,000+ records improving efficiency by 70%',
-        'Built 25+ RESTful APIs following clean architecture principles',
-        'Implemented comprehensive inventory, order tracking, and billing processes',
-        'Enhanced marketing campaign efficiency through automated coupon system'
-      ],
-      technologies: ['C#', '.NET MVC', 'SQL Server', 'REST APIs', 'Clean Architecture'],
-      liveUrl: '#',
-      githubUrl: '#',
-      featured: false
-    }
+    // {
+    //   title: 'AI-Powered Interview Bot',
+    //   period: 'Jan 2024 - Aug 2024',
+    //   description: 'Intelligent interview assistant using OpenAI LLM with RAG-based validation and real-time analytics dashboard.',
+    //   achievements: [
+    //     'Boosted user engagement by 60% with enhanced interview analysis and insights',
+    //     'Integrated RAG-based factuality validation pipeline reducing hallucination by 80%',
+    //     'Constructed interactive progress tracking for 1,000+ users',
+    //     'Developed analytics dashboard with AWS Lambda integration'
+    //   ],
+    //   technologies: ['OpenAI', 'Node.js', 'MongoDB', 'Pinecone', 'Next.js', 'AWS Lambda', 'TypeScript'],
+    //   liveUrl: '#',
+    //   githubUrl: '#',
+    //   featured: true
+    // },
+    // {
+    //   title: 'WCAG-Compliant E-commerce Platform',
+    //   period: 'Feb 2022 - Aug 2022',
+    //   description: 'Accessible e-commerce website with comprehensive React components and scalable backend infrastructure.',
+    //   achievements: [
+    //     'Built 30+ WCAG-compliant React components with Redux state management',
+    //     'Architected REST APIs supporting 5,000 concurrent sessions with 99.9% uptime',
+    //     'Integrated comprehensive monitoring reducing reported bugs by 22%',
+    //     'Implemented auto-scaling infrastructure on AWS'
+    //   ],
+    //   technologies: ['React', 'Redux', 'Spring Boot', 'MongoDB', 'AWS', 'CloudWatch', 'Kibana'],
+    //   liveUrl: '#',
+    //   githubUrl: '#',
+    //   featured: false
+    // },
+    // {
+    //   title: 'Custom ERP System',
+    //   period: 'Jul 2019 - Feb 2022',
+    //   description: 'End-to-end pharmaceutical inventory and order management system with clean architecture principles.',
+    //   achievements: [
+    //     'Streamlined operations for 20,000+ records improving efficiency by 70%',
+    //     'Built 25+ RESTful APIs following clean architecture principles',
+    //     'Implemented comprehensive inventory, order tracking, and billing processes',
+    //     'Enhanced marketing campaign efficiency through automated coupon system'
+    //   ],
+    //   technologies: ['C#', '.NET MVC', 'SQL Server', 'REST APIs', 'Clean Architecture'],
+    //   liveUrl: '#',
+    //   githubUrl: '#',
+    //   featured: false
+    // }
   ];
 
   return (
@@ -124,13 +124,13 @@ const Projects: React.FC = () => {
                 </div>
 
                 <div className="flex gap-4">
-                  <a
+                  {/* <a
                     href={project.liveUrl}
                     className="flex items-center px-4 py-2 bg-gradient-to-r from-cyan-500 to-blue-500 text-white rounded-lg hover:from-cyan-600 hover:to-blue-600 transition-all duration-300 text-sm font-medium"
                   >
                     <ExternalLink className="w-4 h-4 mr-2" />
                     Live Demo
-                  </a>
+                  </a> */}
                   <a
                     href={project.githubUrl}
                     className="flex items-center px-4 py-2 bg-gray-800 hover:bg-gray-700 text-gray-300 rounded-lg border border-gray-600 hover:border-gray-500 transition-all duration-300 text-sm font-medium"

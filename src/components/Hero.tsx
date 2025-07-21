@@ -48,19 +48,27 @@ const Hero: React.FC = () => {
               4+ years building secure, scalable, and AI-powered platforms with expertise in 
               React, Spring Boot, AWS, and LLM integration.
             </p>
+            
 
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
               <button className="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white px-8 py-3 rounded-lg font-medium transition-all duration-300 transform hover:scale-105 pulse-glow">
                 <Briefcase className="inline-block w-5 h-5 mr-2" />
                 Open for Opportunities
               </button>
+              <a
+              href="/Resume_Divya_Prajap.pdf"
+              download
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button className="border border-cyan-500 text-cyan-500 hover:bg-cyan-500 hover:text-white px-8 py-3 rounded-lg font-medium transition-all duration-300">
                 <Download className="inline-block w-5 h-5 mr-2" />
                 Download Resume
               </button>
+              </a>
             </div>
 
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+            <div className="flex flex-wrap gap-4 text-sm mt-4">
               <div className="flex items-center text-gray-400">
                 <Mail className="w-4 h-4 mr-2 text-cyan-400" />
                 <span>divya02698@gmail.com</span>
@@ -104,7 +112,11 @@ const Hero: React.FC = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-full blur-2xl opacity-30 animate-pulse"></div>
               <div className="absolute inset-4 bg-gradient-to-r from-gray-800 to-gray-900 rounded-full flex items-center justify-center">
                 <div className="text-8xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
-                  DP
+                  <img
+                    src="/DP1.jpg"  
+                    alt="Divya Prajapati"
+                    className="w-72 h-72 rounded-full object-cover shadow-lg"
+                  />
                 </div>
               </div>
             </div>
