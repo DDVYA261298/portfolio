@@ -203,7 +203,6 @@
 // };
 
 // export default Contact;
-
 import React, { useState } from 'react';
 import { Mail, Phone, MapPin, Send, Linkedin, Github, MessageSquare, Briefcase } from 'lucide-react';
 
@@ -337,6 +336,7 @@ const Contact: React.FC = () => {
 
             <form onSubmit={handleSubmit} className="space-y-6">
               <input type="hidden" name="form-name" value="contact" />
+              <input type="hidden" name="bot-field" />
               <div className="grid md:grid-cols-2 gap-4">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">
