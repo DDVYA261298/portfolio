@@ -1,0 +1,5 @@
+# Netlify form handling
+/contact-success /contact?success=true 200
+
+# Handle form submissions
+/contact /contact 200
