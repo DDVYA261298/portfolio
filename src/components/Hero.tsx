@@ -56,7 +56,7 @@ const Hero: React.FC = () => {
                 Open for Opportunities
               </button>
               <a
-              href="/Resume_Divya_Prajap.pdf"
+              href="/Divya-Ramesh-Prajapati.pdf"
               download
               target="_blank"
               rel="noopener noreferrer"
