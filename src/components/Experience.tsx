@@ -3,6 +3,33 @@ import { Calendar, MapPin, Building } from 'lucide-react';
 
 const Experience: React.FC = () => {
   const experiences = [
+            {
+        title: 'Software Developer',
+        company: 'Aurus',
+        location: 'Norwood, MA',
+        period: 'Aug 2025 - Present',
+        description:
+          'Leading AI-driven platform development focused on conversational AI, multimodal pipelines, and scalable knowledge systems to improve developer self-service.',
+        achievements: [
+          'Led an AI transformation by architecting and developing a conversational AI chatbot using Python, FastAPI, MongoDB, and Drupal (PHP), improving self-service resolution by 40%',
+          'Built a multimodal AI pipeline using Qwen3-VL (vLLM) to extract and interpret visual process diagrams, improving response accuracy by 25%',
+          'Designed a scalable RAG-based knowledge system using Qdrant vector embeddings and session-aware intent detection, improving multi-turn query accuracy by 30%',
+          'Integrated OpenAPI (Swagger) workflows to auto-generate request/response templates and code samples, reducing manual API validation time by 35%',
+          'Applied LoRA fine-tuning on LLMs to reduce irrelevant responses and fallback answers by 20%, delivering more consistent AI-driven interactions'
+        ],
+        tags: [
+          'Python',
+          'FastAPI',
+          'MongoDB',
+          'Drupal',
+          'RAG',
+          'Qdrant',
+          'LLMs',
+          'vLLM',
+          'OpenAPI',
+          'LoRA'
+        ]
+      },
     {
       title: 'Software Developer',
       company: 'JerseyStem',
